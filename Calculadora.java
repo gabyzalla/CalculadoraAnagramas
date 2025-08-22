@@ -21,7 +21,7 @@ public class Calculadora {
         scanner.close();
     }
 
-    public static boolean saoAnagramas(String palavra1, String palavra2) {
+    public static Boolean saoAnagramas(String palavra1, String palavra2) {
         // Normaliza: minúsculas e remove espaços
         palavra1 = palavra1.toLowerCase().replaceAll("\\s+", "");
         palavra2 = palavra2.toLowerCase().replaceAll("\\s+", "");
